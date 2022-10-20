@@ -6,7 +6,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
-@SpringBootTest
+@SpringBootTest(webEnvironment= SpringBootTest.WebEnvironment.RANDOM_PORT)
 class DemoApplicationTests {
 
 	@Test
